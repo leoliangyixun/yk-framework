@@ -5,6 +5,6 @@
     <artifactId>yk-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>yk-framework-spring-boot</artifactId>
-  <name>yk-framework-spring-boot</name>
+  <artifactId>yk-framework-restfull</artifactId>
+  <name>yk-framework-restfull</name>
 </project>

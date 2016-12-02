@@ -33,12 +33,13 @@ public class DataResult<T> {
 	}
 
 
-	public static DataResult fail(int status, String message, Object result) {
-		return new DataResult(status, message, result);
+	public static  <T>DataResult<T> fail(int status, String message, T result) {
+		return new DataResult<T>(status, message, result);
 	}
 
-	public static  DataResult fail(String message) {
-		DataResult result = new DataResult(message);
+	public static <T> DataResult<T> fail(String message) {
+		DataResult<T> result = new DataResult<T>();
+		result.setMessage(message);
 		result.setStatus(-1);
 		return result;
 	}
