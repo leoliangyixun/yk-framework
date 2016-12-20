@@ -10,5 +10,7 @@
   <modules>
   	<module>yk-framework-dao</module>
   	<module>yk-framework-core</module>
+  	<module>yk-framework-restfull</module>
+  	<module>yk-framework-model</module>
   </modules>
 </project>
