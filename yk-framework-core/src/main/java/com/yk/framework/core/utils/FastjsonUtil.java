@@ -9,7 +9,8 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 
 public class FastjsonUtil implements java.io.Serializable {
 	
-    private static final long serialVersionUID = -3968924571454391535L;
+
+    private static final long serialVersionUID = 1L;
 
     public static String object2JSON(Object obj,SerializerFeature... serializerFeature) {
 		if(obj == null){
