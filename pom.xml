@@ -12,5 +12,6 @@
   	<module>yk-framework-core</module>
   	<module>yk-framework-restfull</module>
   	<module>yk-framework-model</module>
+  	<module>yk-framwork-ext</module>
   </modules>
 </project>
